@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(a.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+} 
+form{
+        height: 547px;
+        width: 400px;
+        position: absolute;
+        transform: translate(-46%,-65%);
+        top: 60%;
+        left: 50%;
+        border-radius: 10px;
+        background-color:#332727;
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        padding: 23px 35px;
+    } 
+    form h3{
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+        color:greenyellow;
+    }
+    label{
+        display:block;
+        margin-top: 25px;
+        font-size: 20px;
+        color: red;
+        font-weight: 500;
+    }
+    .in{
+        display: block;
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        border-radius: 3px;
+        padding: 0 10px;
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    ::placeholder{
+        color:rgb(0, 0, 0);
+    }
+    .logn{
+        margin-top: 50px;
+        width: 100%;
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 12px 0;
+        border-color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight:900;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .logn a{
+        text-decoration: none;
+        color:white;
+    }
+    .logn:hover{
+        background: rgb(111, 164, 225);
+    }
+    .logn a:hover{
+        color: white;
+    }
+    .close a{
+        text-decoration: none;
+        border: 1px solid white;
+        float:right;
+        padding: 0px 6px;
+        color:yellow;
+       font-size: larger;
+     
+    }

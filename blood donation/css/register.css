@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: yellowgreen;
+    margin-top: 10px;
+}
+form{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 57px;
+    background-color:#332727;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    top: 60%;
+    border-width: 2pxS;
+    margin-bottom: 10px;
+}
+.fbd form{
+    width: 800px;
+    height: 800px;
+    padding: 10px,40px;
+    left: 50%;
+    top: 60%;
+    border-width: 2pxS;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    border-radius: 2px;
+    border: 2px solid white;
+    float:right;
+    padding:0px 6px;
+    color: yellow;
+
+}
+label{
+    display:block;
+    margin-top: 25px;
+    font-size: 20px;
+    color: greenyellow;
+    font-weight: 500;
+}
+.in{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.852);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder{
+    color:rgb(0, 0, 0);
+}
+.logn{
+    margin-top: 90px;
+    width: 100%;
+    background-color:#080001;
+    color:#00ffef;
+    padding: 14px 12px;
+    border: 4px;
+    border-color:#0aedcb;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logn a{
+    text-decoration: none;
+    padding: 12px 106px;
+}
+.logn:hover{
+    background: rgb(69, 159, 195);
+}
+.hol{
+    float: left;
+    width: 49%;
+}
+.hor{
+float: right;
+width: 49%;
+}
+.fbd label{
+    color: orangered;
+}
+
+tr{
+    padding-left: 20px;
+    
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(a.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 150vh;
+} 
