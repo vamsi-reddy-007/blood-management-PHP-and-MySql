@@ -12,7 +12,7 @@ This is a ug level blood management system project in PHP and MYSQL
 <h2>step4:</h2> Start the Xampp Control Panel and Start the Apache Server and MySql Server.
 <h2>step5:</h2> Go to the Browser and type <h3>localhost/blood/</h3> it will open the index page of the directory.
 
-<button>Note:</button> You have to create the database and tables in the Sql Server otherwise it will throw the error. Make sure that all configurations are correct.
+<h1>Note:</h1> You have to create the database and tables in the Sql Server otherwise it will throw the error. Make sure that all configurations are correct.
 
  Soon im gonna upload the report file also...
 
