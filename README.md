@@ -1,6 +1,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
-<h1>👋 Hi, I’m @vamsi-reddy-007</h1>
+<h1>👋 Hi, I’m @vamsiGone</h1>
 
 This is a ug level blood management system project in PHP and MYSQL
 
